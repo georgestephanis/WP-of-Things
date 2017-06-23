@@ -3,10 +3,10 @@
  * to an ESP8266 chip.  It was written for my badge, but it
  * can just as easily run a Neopixel Ring attached to a
  * Wemos D1 Mini.
- * 
+ *
  * The endpoint queries is provided by the "Hugh" plugin by
  * Michael Arestad and George Stephanis.
- * 
+ *
  * https://wordpress.org/plugins/hugh/
  */
 
