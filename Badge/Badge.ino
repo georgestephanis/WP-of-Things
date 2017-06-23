@@ -18,6 +18,8 @@
 Adafruit_NeoPixel neoring = Adafruit_NeoPixel( 16, D5 );
 
 // Network details and some global variables to reuse.
+const char* wifissid = "";
+const char* wifipass = "";
 String url           = "http://wp-of-things.pw/wp-json/hugh/v1/colors/?limit=1";
 
 String prevColor; // Store this as a global so `loop()` can remember what the current color is.

@@ -13,6 +13,11 @@
 DHT dht( D4, DHT11, 11 );
 
 // Network details and credentials and such.
+const char* wifissid = "";
+const char* wifipass = "";
+const char* wpuser   = "";
+const char* wppass   = "";
+const char* uuid     = ""; // the uuid for the weather station as given by the plugin
 String url           = "https://wp-of-things.pw/wp-json/wordpress-of-things/v1/weather-station/" + String( uuid );
 // You can get the domain's fingerprint here: https://www.grc.com/fingerprints.htm
 String fingerprint   = "ED:00:E3:79:18:1F:EB:11:13:F5:D0:7F:77:EA:C1:9A:49:16:13:9A";
